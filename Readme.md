@@ -16,7 +16,7 @@ To run the server locally, run the [server.py](DogoBase/server.py) file. The ser
 
  - To get a dog with a specific id, send a GET request to **/api/search/{id}**.
  - To search for a dog with a specific id, name and/or gender send a GET request to **/api/search** with a json parameter `{'id':... , 'name':... , 'gender':...}`
- - To retrieve all dog, send a GET request to **/api/seach/***
+ - To retrieve all dogs, send a GET request to **/api/seach/***
 
 ## 2. Add data
 
