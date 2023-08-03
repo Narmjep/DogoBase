@@ -10,7 +10,7 @@ The apis are developed using [*flask*](https://flask.palletsprojects.com/en/1.1.
 
 ## **DogoBase API**
 
-To run the server locally, run the [server.py](DogoBase/server.py) file. The server will be hosted on port 5000 by default. Make sure however that the random name generator server is **also** running ([RandomNameGenerator](#randomnamegenerator-api))! The database file will be created inside the [data](DogoBase/data) folder.
+To run the server locally, run the [server.py](DogoBase/server.py) file. The server will be hosted on port 5000 by default. Make sure however that the random name generator server is **also** running ([RandomNameGenerator](#randomnamegenerator-api))! The database file will be created inside the [DogoBase](DogoBase) folder.
 
 ## 1. Get data
 
