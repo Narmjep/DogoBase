@@ -1,6 +1,6 @@
 # DogoBase
 
-DogoBase is a very simple database for storing dog data that provides an easy-to-use [api](#dogobase-api).
+DogoBase is a very simple database for storing dog data, that provides an easy-to-use [api](#dogobase-api).
 - The [DogoBase](DogoBase) folder contains the code for the dogobase server which hosts the api.
 - The [RandomNameGenerator](RandomNameGenerator) folder contains the code for the random name generator used by the dogobase server, which also provides an [api](#randomnamegenerator-api).
 - The [client](client.py) is a python script that demonstrates how to use the dogobase api.
@@ -34,4 +34,4 @@ To run the server locally, run the [server.py](RandomNameGenerator/server.py) fi
 
  - To get a random male name send a GET request to **/male**.
 
- - To get a random female name send a GET request to **/female/**.
+ - To get a random female name send a GET request to **/female**.
