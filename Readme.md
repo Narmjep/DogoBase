@@ -4,7 +4,7 @@ DogoBase is a very simple database for storing dog data that provides an easy-to
 - The [DogoBase](DogoBase) folder contains the code for the dogobase server which hosts the api.
 - The [RandomNameGenerator](RandomNameGenerator) folder contains the code for the random name generator used by the dogobase server, which also provides an [api](#randomnamegenerator-api).
 - The [client](client.py) is a python script that demonstrates how to use the dogobase api.
-- The scripts [run.bash](run.bash), [run.bat](run.bat) and [run.ps1](run.ps1) are used to run both servers, each in a seperate terminal window.
+- The scripts [run.bash](run.bash) and [run.ps1](run.ps1) are used to run both servers, each in a seperate terminal window.
 
 The apis are developed using [*flask*](https://flask.palletsprojects.com/en/1.1.x/). Make sure to install the [required packages](requirements.txt).
 
