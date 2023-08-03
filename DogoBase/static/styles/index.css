@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: flex-start; /* Align elements at the top */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(57, 130, 194);
+}
+
+#title {
+    text-align: center;
+    margin-top: 2rem; /* Add some top margin to push the title down a bit */
+}
+
+.title {
+    font-size: 48px;
+    color: whitesmoke;
+}
+
+#about {
+    margin-top: 50%;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
