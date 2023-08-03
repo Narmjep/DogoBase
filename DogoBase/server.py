@@ -20,7 +20,7 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     api.init_app(app)
-    dbPath = __file__ + '/../data/database.db'
+    dbPath = __file__ + '/../database.db'
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + dbPath
     db.init_app(app)
     with app.app_context():
